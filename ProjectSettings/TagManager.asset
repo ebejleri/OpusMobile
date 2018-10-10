@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coin
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Background
+  - Paralax
   - 
   - 
   - 
@@ -40,4 +43,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackScape
+    uniqueID: 365260817
+    locked: 0
+  - name: Background
+    uniqueID: 4045441221
+    locked: 0
+  - name: Back-Paintover
+    uniqueID: 2174174733
+    locked: 0
+  - name: Gameplay
+    uniqueID: 1589436831
+    locked: 0
+  - name: Player
+    uniqueID: 1640572449
+    locked: 0
+  - name: Foreground
+    uniqueID: 4180202001
+    locked: 0
+  - name: Fore-Paintover
+    uniqueID: 117214519
     locked: 0

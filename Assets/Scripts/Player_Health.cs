@@ -15,9 +15,9 @@ public class Player_Health : MonoBehaviour
 
     void Update()
     {
-        if (gameObject.transform.position.y < -7)
+        if (gameObject.transform.position.y < 40)
         {
-            SceneManager.LoadScene(sceneName: "Rough_Gameplay_1");
+            SceneManager.LoadScene(sceneName: "Pomogranite Garden");
         }
     }
 
@@ -25,13 +25,13 @@ public class Player_Health : MonoBehaviour
     {
         if (collision.tag == "Enemy")
         {
-            SceneManager.LoadScene(sceneName: "Rough_Gameplay_1");
+            SceneManager.LoadScene(sceneName: "Pomogranite Garden");
         }
 
         
         if (collision.tag == "Hazard")
         {
-             SceneManager.LoadScene(sceneName: "Rough_Gameplay_1");
+             SceneManager.LoadScene(sceneName: "Pomogranite Garden");
         }
         
 

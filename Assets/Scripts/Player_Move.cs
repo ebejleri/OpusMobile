@@ -9,6 +9,10 @@ public class Player_Move : MonoBehaviour {
 	private float moveX;
     public bool isGrounded;
     public float distanceToBottomOfPlayer = 0.9f;
+    public int jumpCount = 0;
+    public bool finished = false;
+    public bool keyCollected = false;
+    public bool cerberusCalled = false;
 
 
 	// Update is called once per frame
@@ -37,14 +41,18 @@ public class Player_Move : MonoBehaviour {
             GetComponent<SpriteRenderer>().flipX = false;
         }
 
-		//PHYSICS
+        //PHYSICS
+
 		gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
 	}
+    
 
-	void Jump () {
+    void Jump () {
         //JUMPING CODE
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
         isGrounded = false;
+
 
     }
 
@@ -66,6 +74,22 @@ public class Player_Move : MonoBehaviour {
         }
         if (rayDown != null && rayDown.collider != null && rayDown.distance < distanceToBottomOfPlayer && rayDown.collider.tag != "Enemy") {
             isGrounded = true;
+        }
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Door")&&!finished&&keyCollected)
+        {
+            cerberusCalled = true;
+            finished = true;
+            Debug.Log(collision.name);
+            collision.transform.Rotate(0, 0, 90);
+            collision.isTrigger = false;
+        }
+        if (collision.gameObject.CompareTag("Key"))
+        {
+            Destroy(collision.gameObject);
+            keyCollected = true;
         }
     }
 }

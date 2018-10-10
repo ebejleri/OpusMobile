@@ -8,7 +8,7 @@ public class Hazard : MonoBehaviour
         {
         if (col.gameObject.tag == "Hazard")
         {
-            SceneManager.LoadScene("Marshmallow_Level_2");
+            SceneManager.LoadScene("Pomogranite Garden");
         }
     }
 }

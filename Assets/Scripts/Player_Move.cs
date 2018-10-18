@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Player_Move : MonoBehaviour {
 
@@ -10,20 +12,23 @@ public class Player_Move : MonoBehaviour {
     public bool isGrounded;
     public float distanceToBottomOfPlayer = 0.9f;
     public int jumpCount = 0;
-    public bool finished = false;
-    public bool keyCollected = false;
-    public bool cerberusCalled = false;
+    public bool canDoubleJump;
+    public LayerMask groundLayer;
+    public bool hasBone;
+    public Text bonePower;
+    public GameObject bonePowerUp;
 
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
+        PlayerRaycast();
 		PlayerMove ();
         PlayerRaycast();
 	}
 	void PlayerMove () {
 		//CONTROLS
 		moveX = Input.GetAxis("Horizontal");
-        if (Input.GetButtonDown("Jump") && isGrounded == true){
+        if (Input.GetButtonDown("Jump")){
             Jump();
         }
 
@@ -49,20 +54,56 @@ public class Player_Move : MonoBehaviour {
 
     void Jump () {
         //JUMPING CODE
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
-        isGrounded = false;
+            if (isGrounded && jumpCount==0)
+            {
+            Debug.Log("First Jump");
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, playerJumpPower));
+            canDoubleJump = true;
+            isGrounded = false;
+            jumpCount++;
+            }
+            else
+            {
+            
+                if (canDoubleJump)
+                {
+                Debug.Log("Second Jump");
+                canDoubleJump = false;
+                GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0, playerJumpPower));
+                jumpCount--;
+                isGrounded = false;
+                }
+                else
+                {
+                isGrounded = false;
+                jumpCount = 0;
+                
+                    Debug.Log("Bone check");
+                    if (hasBone)
+                    {
+                        hasBone = false;
+                    bonePower.text = "";
+                    GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, playerJumpPower));
+                    bonePowerUp.SetActive(true);
+                    
+                    }
+            }
+        }
+          //  GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        //GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
+        //isGrounded = false;
 
 
     }
 
+
     void PlayerRaycast()
     {
         RaycastHit2D rayUp = Physics2D.Raycast(transform.position, Vector2.up);
-        if (rayUp != null && rayUp.collider != null && rayUp.distance < distanceToBottomOfPlayer && rayUp.collider.name == "CMG_StarBox") {
-            Destroy (rayUp.collider.gameObject);
-        }
-            RaycastHit2D rayDown = Physics2D.Raycast(transform.position, Vector2.down);
+        RaycastHit2D rayDown = Physics2D.Raycast(transform.position, Vector2.down);
         if (rayDown != null && rayDown.collider != null && rayDown.distance < distanceToBottomOfPlayer && rayDown.collider.tag == "Enemy") {
             GetComponent<Rigidbody2D>().AddForce(force: Vector2.up * 500);
             rayDown.collider.gameObject.GetComponent<Rigidbody2D> ().AddForce(Vector2.down * 200);
@@ -72,24 +113,29 @@ public class Player_Move : MonoBehaviour {
             rayDown.collider.gameObject.GetComponent<Enemy_Move>().enabled = false;
             //Destroy(hit.collider.gameObject);
         }
-        if (rayDown != null && rayDown.collider != null && rayDown.distance < distanceToBottomOfPlayer && rayDown.collider.tag != "Enemy") {
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down;
+        float distance = 0.6f;
+
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
+        if (hit.collider != null)
+        {
             isGrounded = true;
         }
+        //if (rayDown != null && rayDown.collider != null && rayDown.distance < distanceToBottomOfPlayer) {
+      //  Debug.Log("Raydown distance"+rayDown.distance);
+        //    isGrounded = true;
+        //}
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Door")&&!finished&&keyCollected)
+        if (collision.gameObject.CompareTag("Bone"))
         {
-            cerberusCalled = true;
-            finished = true;
-            Debug.Log(collision.name);
-            collision.transform.Rotate(0, 0, 90);
-            collision.isTrigger = false;
-        }
-        if (collision.gameObject.CompareTag("Key"))
-        {
-            Destroy(collision.gameObject);
-            keyCollected = true;
+            hasBone = true;
+            bonePower.text = "Triple Jump Active";
+            bonePowerUp = collision.gameObject;
+            collision.gameObject.SetActive(false);
         }
     }
+
 }

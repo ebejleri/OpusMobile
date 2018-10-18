@@ -21,9 +21,6 @@ public class Player_Score : MonoBehaviour {
         timeLeft -= Time.deltaTime;
         timeLeftUI.gameObject.GetComponent<Text>().text = ("Time Left: " + (int)timeLeft);
         playerScoreUI.gameObject.GetComponent<Text>().text = ("Score: " + playerScore);
-        if (timeLeft < 0.1f) {
-            SceneManager.LoadScene ("Marshmallow_Level_2");
-        } 
     }
 
     void OnTriggerEnter2D (Collider2D trig) {

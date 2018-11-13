@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Camera_Update: MonoBehaviour
 {
-    private GameObject player;
+    public GameObject player;
 
     [Tooltip("Pressing up or down makes the camera move in that direction! Useful if you want to stop and look around.")]
     public float yLookDistance = 1f;

@@ -99,6 +99,6 @@ public class Player_Health_Update : MonoBehaviour {
     public void AddPoints(int amount)
     {
         playerScore += amount;
-        scoreText.text = "Shards: " + playerScore.ToString();
+        scoreText.text = ": " + playerScore.ToString();
     }
 }

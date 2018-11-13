@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Pomogranite Garden.unity
+- path: Assets/Scenes/EndScreen.unity
   isLoaded: 1
   isActive: 1

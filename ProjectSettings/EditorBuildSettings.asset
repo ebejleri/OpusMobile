@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 510367e9b17a53145aa33823c4217616
+  - enabled: 1
+    path: Assets/Scenes/Pomogranite Garden.unity
+    guid: cf177be7e5f4e424e9ae9b66ca40bc98
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: f3ceb4d0767a7ae4583bb3c80b405ca6
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 7f2a5f72e7cf5824f9ee3b6339838c76
   m_configObjects: {}

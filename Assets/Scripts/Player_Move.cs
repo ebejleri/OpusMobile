@@ -16,16 +16,22 @@ public class Player_Move : MonoBehaviour {
     public LayerMask groundLayer;
     public bool hasBone;
     public Text bonePower;
+    public AudioClip boneCollect;
     public GameObject bonePowerUp;
+    public Image bonePowerImage;
 
 
     // Update is called once per frame
     void Update () {
         PlayerRaycast();
 		PlayerMove ();
-        PlayerRaycast();
 	}
-	void PlayerMove () {
+    private void Start()
+    {
+        Cursor.visible = false;
+        bonePowerImage.enabled = false;
+    }
+    void PlayerMove () {
 		//CONTROLS
 		moveX = Input.GetAxis("Horizontal");
         if (Input.GetButtonDown("Jump")){
@@ -66,7 +72,7 @@ public class Player_Move : MonoBehaviour {
             else
             {
             
-                if (canDoubleJump)
+                if (canDoubleJump && jumpCount==1)
                 {
                 Debug.Log("Second Jump");
                 canDoubleJump = false;
@@ -77,19 +83,20 @@ public class Player_Move : MonoBehaviour {
                 }
                 else
                 {
-                isGrounded = false;
-                jumpCount = 0;
                 
                     Debug.Log("Bone check");
                     if (hasBone)
                     {
                         hasBone = false;
                     bonePower.text = "";
+                    bonePowerImage.enabled = false;
                     GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                         GetComponent<Rigidbody2D>().AddForce(new Vector2(0, playerJumpPower));
                     bonePowerUp.SetActive(true);
                     
                     }
+                isGrounded = false;
+                jumpCount = 0;
             }
         }
           //  GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -132,8 +139,10 @@ public class Player_Move : MonoBehaviour {
         if (collision.gameObject.CompareTag("Bone"))
         {
             hasBone = true;
-            bonePower.text = "Triple Jump Active";
+            AudioSource.PlayClipAtPoint(boneCollect, transform.position);
+            bonePower.text = "";
             bonePowerUp = collision.gameObject;
+            bonePowerImage.enabled=true;
             collision.gameObject.SetActive(false);
         }
     }

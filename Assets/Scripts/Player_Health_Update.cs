@@ -50,11 +50,11 @@ public class Player_Health_Update : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Death"))
-        {
-            Respawn();
-        }
-        else if (collision.CompareTag("Coin"))
+        //if (collision.CompareTag("Death"))
+        //{
+          //  Respawn();
+        //}
+        if (collision.CompareTag("Coin"))
         {
             AddPoints(coinValue);
             Destroy(collision.gameObject);
@@ -68,10 +68,10 @@ public class Player_Health_Update : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Enemy"))
-        {
-            TakeDamage();
-        }
+       // if (collision.collider.CompareTag("Enemy"))
+        //{
+          //  TakeDamage();
+        //}
     }
 
     private void TakeDamage()

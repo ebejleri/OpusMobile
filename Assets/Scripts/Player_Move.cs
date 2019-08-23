@@ -20,7 +20,6 @@ public class Player_Move : MonoBehaviour {
     public GameObject bonePowerUp;
     public Image bonePowerImage;
 
-
     // Update is called once per frame
     void Update () {
         PlayerRaycast();

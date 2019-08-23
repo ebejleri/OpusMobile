@@ -6,9 +6,9 @@ public class PlaySound2D : MonoBehaviour
     public AudioClip Chirp;
 
 
-    void OnTriggerEnter(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             AudioSource.PlayClipAtPoint(Chirp, transform.position);
         }

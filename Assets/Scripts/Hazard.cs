@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class Hazard : MonoBehaviour
 {
 
-        void OnTriggerEnter(Collision col)
+        void OnTriggerEnter2D(Collider2D col)
         {
         if (col.gameObject.tag == "Hazard")
         {

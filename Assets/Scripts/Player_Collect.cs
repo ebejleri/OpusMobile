@@ -23,7 +23,8 @@ public class Player_Collect : MonoBehaviour {
     public float timeLeft = 500;
     public GameObject doorToOpen;
     public int doorCount = 0;
-
+    public Image transition;
+    public Animator anim;
 
     private void Update()
     {
@@ -79,7 +80,11 @@ public class Player_Collect : MonoBehaviour {
         }
         if (collision.gameObject.CompareTag("Finish"))
         {
-            SceneManager.LoadScene(sceneName: "EndScreen");
+            //Destroy(collision.gameObject);
+            //StartCoroutine(switchScreen());
+            //asyncLoad.allowSceneActivation = true;
+            //SceneManager.LoadScene(2);
+            print("Scence Loaded");
         }
        
     }
@@ -91,6 +96,13 @@ public class Player_Collect : MonoBehaviour {
         yield return new WaitForSeconds(0.01F);
         //float speed = 10F;
         //coll.transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 90, 0), speed * Time.deltaTime);
+    }
+    IEnumerator switchScreen()
+    {
+        print("Ghost Hit");
+        anim.SetBool("SwitchScreen", true);
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("EndScreen");
     }
 
 }

@@ -1,0 +1,1013 @@
+fileFormatVersion: 2
+guid: 8e4069a988f207f4fbceb9f40289aa21
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Opus_Sprite_Sheet_0
+    21300002: Opus_Sprite_Sheet_1
+    21300004: Opus_Sprite_Sheet_2
+    21300006: Opus_Sprite_Sheet_3
+    21300008: Opus_Sprite_Sheet_4
+    21300010: Opus_Sprite_Sheet_5
+    21300012: Opus_Sprite_Sheet_6
+    21300014: Opus_Sprite_Sheet_7
+    21300016: Opus_Sprite_Sheet_8
+    21300018: Opus_Sprite_Sheet_9
+    21300020: Opus_Sprite_Sheet_10
+    21300022: Opus_Sprite_Sheet_11
+    21300024: Opus_Sprite_Sheet_12
+    21300026: Opus_Sprite_Sheet_13
+    21300028: Opus_Sprite_Sheet_14
+    21300030: Opus_Sprite_Sheet_15
+    21300032: Opus_Sprite_Sheet_16
+    21300034: Opus_Sprite_Sheet_17
+    21300036: Opus_Sprite_Sheet_18
+    21300038: Opus_Sprite_Sheet_19
+    21300040: Opus_Sprite_Sheet_20
+    21300042: Opus_Sprite_Sheet_21
+    21300044: Opus_Sprite_Sheet_22
+    21300046: Opus_Sprite_Sheet_23
+    21300048: Opus_Sprite_Sheet_24
+    21300050: Opus_Sprite_Sheet_25
+    21300052: Opus_Sprite_Sheet_26
+    21300054: Opus_Sprite_Sheet_27
+    21300056: Opus_Sprite_Sheet_28
+    21300058: Opus_Sprite_Sheet_29
+    21300060: Opus_Sprite_Sheet_30
+    21300062: Opus_Sprite_Sheet_31
+    21300064: Opus_Sprite_Sheet_32
+    21300066: Opus_Sprite_Sheet_33
+    21300068: Opus_Sprite_Sheet_34
+    21300070: Opus_Sprite_Sheet_35
+    21300072: Opus_Sprite_Sheet_36
+    21300074: Opus_Sprite_Sheet_37
+    21300076: Opus_Sprite_Sheet_38
+    21300078: Opus_Sprite_Sheet_39
+    21300080: Opus_Sprite_Sheet_40
+    21300082: Opus_Sprite_Sheet_41
+    21300084: Opus_Sprite_Sheet_42
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 730
+        width: 131
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b119724a1a570844b8f37ac1e9639107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 728
+        width: 140
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050e4aff8ce00484386929ebcda95136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 726
+        width: 140
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048c6f7c02fde834facd45982ac1cbf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 725
+        width: 140
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507e6b4fc4768cc4ebf4df1a36d1630b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 724
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c929ba8da445f5d45a1f9915a54f9104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 775
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b7e1859eff573439c0790f9835c77f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 789
+        width: 60
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90c3216c0258bc4e815df3c884feff5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 779
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48be31b59cc090c4886e6d0036ad3506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 774
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e568d8a7db3df484b9bde47b07cd7689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 774
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a7bda63cefe094d92d787bf69a51e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 626
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1530a13a1dcfb45bf922ba4ee9a097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 619
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0684f957cdae24948860b7d81c4d5070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 617
+        width: 122
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862e61dce844b354291a16e9c969f4b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 626
+        width: 131
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42452b05c849b645be8538d6640b763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 626
+        width: 133
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06752c4fa3b4104d995ffab941991b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 532
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec01711e7b40b748bc7d08fffecefaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 527
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9616d8b51f93ce4c916206112585eee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 525
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4fee8ef789a9d489847817189a4b3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 526
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9f647a741557f42b57b940a8584d21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 524
+        width: 104
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacc59e17b892ef4bb972d74ceee9479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 435
+        width: 131
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff32d7d0d340fd48abf5d82b95c0489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 430
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7822d223acef0974e970e4a03cf5bef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 425
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4de6f00ed4c34408982fc715cc97f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 425
+        width: 118
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00ea319c58c18f46b0467b6f71635f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 425
+        width: 128
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb6df0fdb8c894aa0fce7701474a8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 336
+        width: 122
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9784181b6f24a84e8f47423ad99cdb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 327
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70e86b09c1e88b459cceb838fdba94b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 326
+        width: 119
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d820fec4e581f4e875622128ffc68e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 326
+        width: 118
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3daa565262ef5a4c94b079dc9dfb347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 325
+        width: 149
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a371bc33f0bcc4e849b06df2281d8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 237
+        width: 131
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebed29fa6c8f0e748897dfb78114564e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 239
+        width: 130
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c2f92e3b38f114481f24c43f22f8d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 237
+        width: 138
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa2f8af8388f734fa6d7093e036fed4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 239
+        width: 159
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89181a390dba3dc4db15726fb8a24ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 239
+        width: 159
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad4e3d45e876844e97d3608c0de441d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 128
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f976ede0e4335af4189ea3c15e479b31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 132
+        width: 130
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d034f74430e8ed4193a8b0e8b185c35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 132
+        width: 140
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee47cfc6eb0e3242863fbb17ddf4174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 136
+        width: 153
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c805e7435f029e54581f611e76031c5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 133
+        width: 158
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95190b3e8ae2eb248af28cb49e7406e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 19
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2524408ad0b724b95ba1a1781eea08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 23
+        width: 156
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8505d894c0e7f488ea5b48fa4b9c82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opus_Sprite_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 19
+        width: 139
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476aef35bb0b09543b8432966ab8b840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0461f6f3a6377194a938ee1635233eb4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
